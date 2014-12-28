@@ -26,17 +26,15 @@
     left:0;
     width:100%;
     height:100%;
-    background: rgb(42,146,211); /* Old browsers */
-background: -moz-linear-gradient(-45deg,  rgba(42,146,211,1) 0%, rgba(47,216,166,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(42,146,211,1)), color-stop(100%,rgba(47,216,166,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg,  rgba(42,146,211,1) 0%,rgba(47,216,166,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg,  rgba(42,146,211,1) 0%,rgba(47,216,166,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg,  rgba(42,146,211,1) 0%,rgba(47,216,166,1) 100%); /* IE10+ */
-background: linear-gradient(135deg,  rgba(42,146,211,1) 0%,rgba(47,216,166,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a92d3', endColorstr='#2fd8a6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: -moz-linear-gradient(left,  rgba(42,146,211,1) 0%, rgba(47,216,166,0.57) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(42,146,211,1)), color-stop(100%,rgba(47,216,166,0.57))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(42,146,211,1) 0%,rgba(47,216,166,0.57) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(42,146,211,1) 0%,rgba(47,216,166,0.57) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(42,146,211,1) 0%,rgba(47,216,166,0.57) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(42,146,211,1) 0%,rgba(47,216,166,0.57) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a92d3', endColorstr='#912fd8a6',GradientType=1 ); /* IE6-9 */
 
-
-    opacity:0.85;
+	opacity:0.95;
     filter: alpha(opacity=85);
 }
 .da-slider .container {
@@ -85,7 +83,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a92d3', end
 
 .da-slide h2,
 .da-slide h4{
-    color: #181A1C;
+    color: #fefefe;
     text-transform:uppercase;
       white-space: nowrap;
     z-index: 10;

@@ -141,7 +141,7 @@ p {
     text-align: center;
 }
 .highlighted-box {
-    background:#F4F8F9;
+    background:rgba(20,20,20,0.7);
     padding:20px 30px;
 }
 .highlighted-box h1 {
@@ -530,7 +530,7 @@ p {
 }
 .skills li {
     margin-bottom:30px;
-    background:#000;
+    background:none;
     height:40px;
     padding:1px;
 }
@@ -837,13 +837,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a92d3', end
     right:20px;
 	border:1px solid #000;
     display:none;
-    background: #2a92d3;
+    background: rgba(250,250,250,0.3);
 }
 .scrollup > a {
     position:relative;
     top:7px;
     color:#000;
 }
+#service
+{
+	z-index:100; 
+}
+
+
 /*
 4 Responsible
 ********************************************************************/

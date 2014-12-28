@@ -13,9 +13,9 @@
         width:1170, //Max slider width
         height:500, //max slider height
         current: 0, // index of current slide
-        bgincrement: 100, // increment the bg position (parallax effect) when sliding
+        bgincrement: 1, // increment the bg position (parallax effect) when sliding
         autoplay: true, // slideshow on / off
-        interval: 6000 // time between transitions
+        interval: 15000 // time between transitions
     };
 
     $.Slider.prototype = {
