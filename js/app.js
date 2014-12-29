@@ -369,7 +369,7 @@ Sand mail
         }
     });
     
-    $(window).scroll(function(){
+   /* $(window).scroll(function(){
     	var s=$(window).scrollTop();
     	
     	 $('.da-slider').css("transition","all 0.2s");
@@ -379,7 +379,7 @@ Sand mail
     	 $('.da-slider').css("-moz-transform","translateY(-"+s/3+"px)");
     	 $('.da-slider').css("-o-transform","translateX(-"+s/3+"px)");
     	
-    });
+   }); */
    
     
     

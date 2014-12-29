@@ -848,7 +848,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a92d3', end
 {
 	z-index:100; 
 }
-
+.color2
+{
+	color: rgb(220,220,220);
+}
 
 /*
 4 Responsible
